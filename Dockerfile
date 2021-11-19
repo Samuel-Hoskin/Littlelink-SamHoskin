@@ -1,2 +1,2 @@
-FROM arm64v8/nginx
+FROM linuxserver/nginx
 COPY html /usr/share/nginx/html
