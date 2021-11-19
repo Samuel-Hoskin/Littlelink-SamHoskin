@@ -1,3 +1,3 @@
-FROM linuxserver/nginx
+FROM nginx
 COPY . /usr/share/nginx/html
 #!/bin/bash 
