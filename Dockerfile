@@ -1,3 +1,3 @@
-FROM nginx
+FROM arm64v8/nginx
 COPY . /usr/share/nginx/html
-#!/bin/bash 
+COPY nginx /etc/nginx/
