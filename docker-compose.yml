@@ -1,7 +1,7 @@
 version: '3'
 services:
   web:
-    image: sh-links
+    image: littlelink-samhoskin:master
     build: .
     container_name: my-static-site
     restart: always
