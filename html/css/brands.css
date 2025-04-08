@@ -92,9 +92,9 @@ button:hover,
   filter: brightness(90%) }
 
 /* Bluesky */
-.button-bluesky {
-	--button-text:#FFFFFF;
-	--button-background:#1185FE;
+.button.button-bluesky {
+	text:#FFFFFF;
+	background:#1185FE;
 }
 
 /* Patreon */
